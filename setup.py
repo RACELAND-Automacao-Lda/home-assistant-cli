@@ -81,20 +81,20 @@ PACKAGES = find_packages(exclude=['tests', 'tests.*'])
 REQUIRES = [
     'aiohttp>=3.7.4,<4',
     'click-log>=0.3.2,<0.4',
-    'click>=8,<9',
+    'click==8.0.4',
     'dateparser>=0.7.1,<0.8',
     'jinja2>=2.10',
     'jsonpath-ng>=1.5.1,<2',
     'netdisco>=3.0.0,<4',
     'regex>=2021.10.8',
     'ruamel.yaml>=0.16.5,<0.18',
-    'requests>=2.22.0,<3',
+    'requests>=2.26.0,<3',
     'tabulate>=0.8.3,<0.9',
 ]
 
 # Should be as close to Home Assistant dev/master as possible
 TESTS_REQUIRE = [
-    'black>=20.8b1,<30',
+    'black>=22.3.0,<30',
     'codecov>=2.0.15,<3',
     'coveralls>=1.2.0,<2',
     'flake8>=3.9,<4',
